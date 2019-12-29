@@ -8,7 +8,21 @@ public class managerVO {
 	int idx;
 	String menulist;
 	int money;
+	int total;
+	int total1;
 	
+	public int getTotal() {
+		return total;
+	}
+	public void setTotal(int total) {
+		this.total = total;
+	}
+	public int getTotal1() {
+		return total1;
+	}
+	public void setTotal1(int total1) {
+		this.total1 = total1;
+	}
 	public int getIdx() {
 		return idx;
 	}
